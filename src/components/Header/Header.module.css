@@ -1,0 +1,106 @@
+:root {
+  --color-Pink: rgb(237, 20, 91);
+  --color-light-gray: rgb(114, 112, 112);
+  --color-dark-gray: rgb(56, 56, 56);
+  --max-width: 1280px;
+}
+
+/* .Header {
+  border-bottom: 2px solid var(--color-gray);
+  background-color: var(--color-dark-gray);
+  /* position: fixed; */
+/* width: 100%; */
+/* backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px); 
+} */
+
+.wrapperHeader {
+  margin: 0 auto;
+  max-width: var(--max-width);
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 1.25rem 1rem;
+}
+
+.ulMenu {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+.ulMenu li {
+  list-style: none;
+}
+
+.navLi a {
+  color: var(--color-light-gray);
+  letter-spacing: 2px;    /*espaçamento das letras*/
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+.navLi a:hover {
+  color: var(--color-Pink);
+}
+
+.navLi a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px; /* Espessura do sublinhado */
+  background-color: var(--color-Pink); /* Cor do sublinhado */
+  transition: width 0.5s ease; /* Transição para o aumento da largura */
+}
+
+.navLi a:hover::after {
+  width: 100%; /* Aumenta a largura do sublinhado no hover */
+}
+
+#buttonMobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  nav {
+    display: none;
+  }
+
+  .wrapperHeader {
+    display: flex;
+    justify-content: space-between;
+  }
+  #buttonMobile {
+    display: block;
+    display: transparent;
+    background-color: var(--color-light-gray);
+  }
+
+  #menuIcons {
+    width: 20px;
+    height: 20px;
+  }
+  .active nav {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    background-color: var(--color-dark-gray);
+    z-index: 1;
+  }
+
+  .active .ulMenu {
+    padding: 16px 20px;
+    gap: 32px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .active .navLi {
+    text-align: center;
+  }
+}
