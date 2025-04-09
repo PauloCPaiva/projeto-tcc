@@ -1,9 +1,4 @@
-:root {
-  --color-Pink: rgb(237, 20, 91);
-  --color-light-gray: rgb(114, 112, 112);
-  --color-dark-gray: rgb(56, 56, 56);
-  --max-width: 1280px;
-}
+
 
 /* .Header {
   border-bottom: 2px solid var(--color-gray);

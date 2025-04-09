@@ -1,3 +1,10 @@
+:root {
+  --color-Pink: rgb(237, 20, 91);
+  --color-light-gray: rgb(114, 112, 112);
+  --color-dark-gray: rgb(56, 56, 56);
+  --max-width: 1280px;
+}
+
 body {
   background: rgb(16, 12, 18);
   background: linear-gradient(
