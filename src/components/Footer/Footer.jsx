@@ -4,7 +4,7 @@ import listContats from "../ContactCard/listContats";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="footer">
       <div className={styles.wrapperFooter}>
         <div className={styles.footerContent}>
         <h2>Lista de Contatos</h2>

@@ -2,7 +2,7 @@ import style from "../Courses/Courses.module.css"
 
 const Cursos = () => {
   return (
-    <section className={style.Curso}>
+    <section id="Courses"className={style.Curso}>
       <div className={style.cursoWrapper}>
         <div className={style.curso1}>
           <h2>In tecnologia da informação</h2>
