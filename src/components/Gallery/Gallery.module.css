@@ -1,60 +1,32 @@
-.galeria {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
-    transition: all 0.3s ease;
-  }
-  
-  .container {
-    width: 30%;
-    text-align: center;
-    border: 1px solid #ddd;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    transition: all 0.3s ease;
-    position: relative;
-  }
-  
-  .container img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  
-  /* h2 {
-    margin: 10px 0;
-    font-size: 1.2em;
-  }
-  
-  p {
-    font-size: 1em;
-    color: #555;
-  }
-   */
-  /* Efeito de hover nos containers */
-  .container.hovered {
-    transform: scale(1.05); /* Aumenta o container com o hover */
-    z-index: 2; /* Traz o container para frente */
-  }
-  
-  /* Efeito de desfocar os outros containers */
-  .galeria .container:not(.hovered) {
-    opacity: 0.5;
-    filter: blur(2px); /* Aplica um desfoque nos outros containers */
-  }
-  
-  /* Responsividade */
-  @media (max-width: 768px) {
-    .container {
-      width: 48%;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .container {
-      width: 100%;
-    }
-  }
+.wrapperGallery {
+  max-width: var(--max-widht);
+  margin: 0 auto;
+}
+
+.galleryContainer {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  color: var(--color-Pink);
+}
+
+.galleryContainer a{
+text-align: center;
+text-decoration: none;
+color: var(--color-light-gray);
+} 
+/* Aplica grayscale a todas as imagens quando qualquer card for hover */
+.galleryContainer:hover .card img {
+  filter: grayscale(100%) brightness(0.7);
+  transform: scale(0.95);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+/* Remove efeito da imagem com hover */
+.galleryContainer .card:hover img {
+  filter: none;
+  transform: scale(1.05);
+  z-index: 1;
+}
