@@ -24,7 +24,7 @@ const Header = () => {
             alt=""
           />
         </button>
-        <nav className={menuActive ? styles.active : ""}>
+        <nav className={`${styles.navMenu} ${menuActive ? styles.active : ""}`}>
           <ul className={styles.ulMenu}>
             <li className={styles.navLi}>
               <a href="">Apresentação</a>
