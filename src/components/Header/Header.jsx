@@ -30,13 +30,13 @@ const Header = () => {
               <a href="">Apresentação</a>
             </li>
             <li className={styles.navLi}>
-              <a href="">Cursos</a>
+              <a href="#Courses">Cursos</a>
             </li>
             <li className={styles.navLi}>
-              <a href="">Galeria</a>
+              <a href="#Gallery">Galeria</a>
             </li>
             <li className={styles.navLi}>
-              <a href="">Novos</a>
+              <a href="#footer">Novos</a>
             </li>
           </ul>
         </nav>
