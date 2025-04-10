@@ -1,0 +1,40 @@
+const listContats = [
+  {
+    title: "Contato 1",
+    email: "contato@exemplo.com",
+    phone: "(00) 0000-0000",
+    socialMedia: [
+      { name: "Instagram", url: "https://instagram.com/contato1" },
+      { name: "GitHub", url: "https://github.com/contato1" },
+    ],
+  },
+  {
+    title: "Contato 2",
+    email: "contato@exemplo.com",
+    phone: "(00) 0000-0000",
+    socialMedia: [
+      { name: "LinkedIn", url: "https://linkedin.com/in/contato2" },
+      { name: "GitHub", url: "https://github.com/contato2" },
+    ],
+  },
+  {
+    title: "Contato 3",
+    email: "contato@exemplo.com",
+    phone: "(00) 0000-0000",
+    socialMedia: [
+      { name: "LinkedIn", url: "https://linkedin.com/in/contato2" },
+      { name: "GitHub", url: "https://github.com/contato2" },
+    ],
+  },
+  {
+    title: "Contato 4",
+    email: "contato@exemplo.com",
+    phone: "(00) 0000-0000",
+    socialMedia: [
+      { name: "LinkedIn", url: "https://linkedin.com/in/contato2" },
+      { name: "GitHub", url: "https://github.com/contato2" },
+    ],
+  },
+];
+
+export default listContats;

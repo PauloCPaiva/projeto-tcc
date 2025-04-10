@@ -1,96 +1,97 @@
-
 footer {
-    /* background-color: #2c3e50; */
-    color: white;
-    padding: 40px 0;
-    font-family: Arial, sans-serif;
-  }
+  color: var(--color-light-gray);
+  padding: 40px 0;
+}
 
-  .wrapperFooter{
-    margin: 0 auto;
-    max-width: var(--max-width);
-} 
-   .footerContent {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-  } 
-  
-  .contactInfo {
-    /* background-color: #34495e; */
-    padding: 15px;
-    border: 2px solid var(--color-Pink);
-    border-radius: 8px;
-  }
-  
-  .contactInfo h3 {
-    color: var(--color-Pink);
-    margin-bottom: 10px;
-    font-size: 16px;
-  }
-  
-  .contactInfo p {
-    color : var(--color-light-gray);
-    margin: 5px 0;
-    font-size: 14px;
-  }
-  
-  .socialMedia {
-    margin-top: 10px;
-  }
-  
-  .socialMedia a {
-    /* display: inline-block; */
-    margin-right: 10px;    
-    color : var(--color-light-gray);
-    text-decoration: none;
-    font-size: 14px;
-  }
-  
-  .socialMedia a:hover {
-    text-decoration: underline;
-  }
-  
-  .disclaimer {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 14px;
-  }
-  
-  .disclaimer p{
-    color: var(--color-light-gray);
-  }
+.wrapperFooter {
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
 
-  
+.footerContent h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.Contacts {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens "quebrem" para a próxima linha */
+  justify-content: center;
+  gap: 20px;
+}
+
+.contactInfo {
+  padding: 15px;
+  border: 2px solid var(--color-Pink);
+  border-radius: 8px;
+}
+
+.contactInfo h3 {
+  color: var(--color-Pink);
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.contactInfo p {
+  color: var(--color-light-gray);
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.socialMedia {
+  margin-top: 10px;
+}
+
+.socialMedia a {
+  /* display: inline-block; */
+  margin-right: 10px;
+  color: var(--color-light-gray);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.socialMedia a:hover {
+  text-decoration: underline;
+}
+
+.disclaimer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.disclaimer p {
+  color: var(--color-light-gray);
+}
+
 /* Media query para dispositivos móveis com largura máxima de 600px */
 @media (max-width: 600px) {
-    .footerContent {
-        grid-template-columns: 1fr 1fr; /* Agora as colunas vão quebrar para 2 colunas no mobile */
-        gap: 15px; /* Diminuindo o espaçamento entre os blocos */
-        padding: 0 10px; /* Adicionando um padding para o conteúdo não ir até as extremidades */
-      }
-    
-      .contactInfo {
-        width: 100%; /* Cada item ainda ocupa 100% do espaço disponível, mas com largura controlada */
-        max-width: 300px; /* Definindo uma largura fixa máxima para cada bloco */
-        box-sizing: border-box; /* Garantindo que o padding não ultrapasse a largura do elemento */
-      }
-  
-    .contactInfo h3 {
-      font-size: 14px; /* Reduzindo o tamanho da fonte dos títulos */
-    }
-  
-    .contactInfo p {
-      font-size: 12px; /* Reduzindo o tamanho da fonte dos textos */
-    }
-  
-    .socialMedia a {
-      font-size: 12px; /* Reduzindo o tamanho da fonte dos links */
-      margin-right: 8px; /* Diminuindo o espaço entre os links */
-    }
-  
-    .disclaimer {
-      font-size: 12px; /* Reduzindo o tamanho da fonte no disclaimer */
-      margin-top: 15px;
-    }
+  .footerContent {
+    /* grid-template-columns: 1fr 1fr; Agora as colunas vão quebrar para 2 colunas no mobile */
+    /* gap: 15px; Diminuindo o espaçamento entre os blocos */
+    padding: 0 20px; /* Adicionando um padding para o conteúdo não ir até as extremidades */
   }
+
+  .contactInfo {
+    width: 100%; /* Cada item ainda ocupa 100% do espaço disponível, mas com largura controlada */
+    max-width: 250px; /* Definindo uma largura fixa máxima para cada bloco */
+    /* box-sizing: border-box; Garantindo que o padding não ultrapasse a largura do elemento */
+  }
+
+  .contactInfo h3 {
+    font-size: 14px; /* Reduzindo o tamanho da fonte dos títulos */
+  }
+
+  .contactInfo p {
+    font-size: 12px; /* Reduzindo o tamanho da fonte dos textos */
+  }
+
+  .socialMedia a {
+    font-size: 12px; /* Reduzindo o tamanho da fonte dos links */
+    margin-right: 8px; /* Diminuindo o espaço entre os links */
+  }
+
+  .disclaimer {
+    font-size: 12px; /* Reduzindo o tamanho da fonte no disclaimer */
+    margin-top: 15px;
+  }
+}

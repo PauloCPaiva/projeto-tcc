@@ -1,0 +1,64 @@
+
+.contactInfo {
+    padding: 15px;
+    border: 2px solid var(--color-Pink);
+    border-radius: 8px;
+  }
+  
+  .contactInfo h3 {
+    color: var(--color-Pink);
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .contactInfo p {
+    color: var(--color-light-gray);
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .socialMedia {
+    margin-top: 10px;
+  }
+  
+  .socialMedia a {
+    /* display: inline-block; */
+    margin-right: 10px;
+    color: var(--color-light-gray);
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .socialMedia a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 600px) {
+    .footerContent {
+      padding: 0 20px; /* Adicionando um padding para o conteúdo não ir até as extremidades */
+    }
+  
+    .contactInfo {
+      width: 100%; /* Cada item ainda ocupa 100% do espaço disponível, mas com largura controlada */
+      max-width: 250px; /* Definindo uma largura fixa máxima para cada bloco */
+      /* box-sizing: border-box; Garantindo que o padding não ultrapasse a largura do elemento */
+    }
+  
+    .contactInfo h3 {
+      font-size: 14px; /* Reduzindo o tamanho da fonte dos títulos */
+    }
+  
+    .contactInfo p {
+      font-size: 12px; /* Reduzindo o tamanho da fonte dos textos */
+    }
+  
+    .socialMedia a {
+      font-size: 12px; /* Reduzindo o tamanho da fonte dos links */
+      margin-right: 8px; /* Diminuindo o espaço entre os links */
+    }
+  
+    .disclaimer {
+      font-size: 12px; /* Reduzindo o tamanho da fonte no disclaimer */
+      margin-top: 15px;
+    }
+  }

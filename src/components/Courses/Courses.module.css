@@ -1,0 +1,83 @@
+.cursoWrapper {
+    margin: 0 auto;
+    max-width: var(--max-width);  
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
+    padding: 3rem 0;
+  }
+  
+  .curso1,
+  .curso2,
+  .curso3,
+  .curso4 {
+    width: 16.5625rem;
+    border: 2px solid var(--color-Pink);
+    border-radius: 10px;
+    padding: 1.25rem 0.625rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .curso1:hover,
+  .curso2:hover,
+  .curso3:hover,
+  .curso4:hover {
+    transform: scale(1.1); /* Aumenta 10% */
+    transition: transform 0.5s ease-in-out; /* Agora a animação dura 0.5 segundos */
+  }
+  .curso1 h2,
+  .curso2 h2,
+  .curso3 h2,
+  .curso4 h2 {
+    color: var(--color-Pink);
+    font-size: 1.25rem;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  .curso1 p,
+  .curso2 p,
+  .curso3 p,
+  .curso4 p {
+    color: var(--color-light-gray);
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .curso1 li,
+  .curso2 li,
+  .curso3 li,
+  .curso4 li {
+    padding-top: 0.3125rem;
+    margin-left: 2.5rem;
+    color: var(--color-light-gray);
+    font-size: 0.875rem;
+  }
+  
+  @media (max-width: 600px) {
+    .cursoWrapper {
+      gap: 10px;
+    }
+        
+    .curso1 h2,
+    .curso3 h2,
+    .curso2 h2,
+    .curso4 h2 {
+      font-size: 1rem;
+    }
+    .curso1 p,
+    .curso2 p,
+    .curso3 p,
+    .curso4 p {
+      font-size: 0.75rem;
+    }
+    .curso1 li,
+    .curso2 li,
+    .curso3 li,
+    .curso4 li {
+      font-size: 0.625rem;
+      display: ;
+    }
+  }

@@ -1,8 +1,14 @@
 :root {
   --color-Pink: rgb(237, 20, 91);
-  --color-light-gray: rgb(114, 112, 112);
+  --color-light-gray: rgb(218, 218, 218);
   --color-dark-gray: rgb(56, 56, 56);
   --max-width: 1280px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -13,4 +19,13 @@ body {
     rgba(40, 38, 38, 1) 50%,
     rgba(41, 41, 40, 1) 100%
   );
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: 'Space Grotesk', sans-serif; */
+  /* font-family: 'Inter', sans-serif; */
 }
+
+button {
+  background: transparent; /*para os botão herdarem a cor do background*/
+  border: transparent;
+}
+
