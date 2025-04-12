@@ -6,7 +6,7 @@ const Precos = () => {
     <section className={styles.precos}>
       <div className={styles.precoWrapper}>
         <h2 className={styles.precosH2}>
-          Veja como você pode investir em VOCÊ com o valor que cabe no bolso
+          Veja como você pode <span>investir em VOCÊ</span> com o valor que cabe no seu bolso
         </h2>
         <div className={styles.contentPrecos}>
           <div className={styles.precoBasico}>
@@ -31,7 +31,7 @@ const Precos = () => {
               R$<span className={styles.spanH2}>155,00</span>
             </h2>
             <h3>Essencial</h3>
-            <p>
+            <p className={styles.essencialBlackP}>
               Aprenda oque é preciso para manter-se na carreira de Front End
             </p>
             <ul>

@@ -4,15 +4,27 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 30px;
   gap: 20px;
 }
 
-.wrapperGallery h2 {
+.wrapperGallery h2,p {
   text-align: center;
   color: var(--color-light-gray);
 }
+
+.wrapperGallery h2{
+  font-size: 48px;
+  max-width: 30ch;
+}
+
+.wrapperGallery span{
+  color: var(--color-Pink);
+}
+
 .imgGallery {
+  padding: 20px 0;
   width: 100%;
   max-width: 1200px;
 }
@@ -48,4 +60,8 @@
   .divImg {
     gap: 10px;
   }
+  
+.divImg a {
+  width: 100px;
+}
 }

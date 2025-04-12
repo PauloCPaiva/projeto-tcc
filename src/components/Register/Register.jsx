@@ -5,6 +5,7 @@ const Cadastro = () => {
   return (
     <section className={style.cadastro}>
       <div className={style.cadastroWrapper}>
+        <h2>Cadastre-se para ter acesso ao melhor que o curso pode te proporcionar</h2>
         <form method="post">
           <div className={style.cadastroEmail}>
             <input required type="email" placeholder="Digite seu Email" />
