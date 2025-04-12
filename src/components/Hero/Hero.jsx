@@ -1,4 +1,4 @@
-import styles from "../hero/Hero.module.css";
+import styles from "../Hero/Hero.module.css";
 import HeroImg from "../../assets/img/hero-img.png";
 import ButtonRed from "../ButtonRed/ButtonRed";
 
