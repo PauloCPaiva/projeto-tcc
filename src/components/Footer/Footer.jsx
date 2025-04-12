@@ -1,4 +1,4 @@
-import styles from "../footer/Footer.module.css";
+import styles from "../Footer/Footer.module.css";
 import LogoFooter from "../../assets/img/procode-logo.svg";
 import Insta from "../../assets/img/insta-icon.svg";
 import Face from "../../assets/img/face-icon.svg";
