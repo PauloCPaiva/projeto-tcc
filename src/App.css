@@ -1,0 +1,22 @@
+:root {
+  --color-Pink: rgb(237, 20, 91);
+  --color-light-gray: rgb(218, 218, 218);
+  --color-dark-gray: rgb(56, 56, 56);
+  --max-width: 1280px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  font-family: "inter", sans-serif;
+}
+
+button {
+  background: transparent; /*para os botão herdarem a cor do background*/
+  border: transparent;
+}

@@ -1,0 +1,23 @@
+.btnWrapper {
+    background-color: var(--color-Pink);
+    height: 40px;
+    width: 140px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .btnWrapper a {
+    color: var(--color-light-gray);
+    text-decoration: none;
+  }
+  
+  .btnWrapper:hover {
+    background-color: var(--color-light-gray);
+  }
+  
+  .btnWrapper:hover a {
+    color: var(--color-Pink);
+  }
