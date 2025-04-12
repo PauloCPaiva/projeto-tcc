@@ -1,10 +1,14 @@
+import { Link } from "react-router-dom";
 import styles from "./ButtonRed.module.css";
 
-const Button = (props, link) => {
+const Button = ({ children, link }) => {
   return (
     <div className={styles.btnWrapper}>
-            <a href={link} className={styles.linlBtn} {...props}></a>
+      <Link to={link} className={styles.linkBtn}>
+        {children}
+      </Link>
     </div>
   );
 };
+
 export default Button;

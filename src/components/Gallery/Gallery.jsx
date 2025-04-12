@@ -3,7 +3,7 @@ import listSites from "./Gallery";
 
 const Gallery = () => {
   return (
-    <section>
+    <section id="gallery">
       <div className={styles.wrapperGallery}>
         <h2>
           Seu aprendizado prepara <span>você</span> para <span>criar</span> <span>soluções</span> reais e <span>inovadoras</span>

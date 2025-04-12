@@ -1,3 +1,6 @@
+.Footer{
+  background-color: var(--color-black);
+}
 .wrapperFooter {
   margin: 0 auto;
   max-width: var(--max-width);
@@ -12,6 +15,7 @@
 
 .containerFooter p {
   padding-top: 20px;
+  text-align: left;
   color: var(--color-light-gray);
   max-width: 40ch;
   font-size: 16px;

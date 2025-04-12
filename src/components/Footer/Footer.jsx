@@ -7,7 +7,7 @@ import ButtonRed from "../ButtonRed/ButtonRed";
 
 const Footer = () => {
   return (
-    <footer className={styles.Footer}>
+    <footer id="footer" className={styles.Footer}>
       <div className={styles.wrapperFooter}>
         <div className={styles.containerFooter}>
           <div>
@@ -30,7 +30,7 @@ const Footer = () => {
                 placeholder="Digite o seu email aqui"
                 className="input"
               />
-              <ButtonRed>Cadastre-se</ButtonRed>
+              <ButtonRed link="/cadastro">Cadastre-se</ButtonRed>
             </div>
           </div>
         </div>

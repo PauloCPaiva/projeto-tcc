@@ -4,7 +4,7 @@ import listCourses from "./infosCourse.js";
 
 const Courses = () => {
   return (
-    <section className={styles.Courses}>
+    <section id="cursos" className={styles.Courses}>
       <div className={styles.wrapperCourses}>
         <h2 className={styles.wrapperCoursesH2}>
           Dê o <span>Próximo Passo</span> na Sua Carreira <span>com</span>{" "}

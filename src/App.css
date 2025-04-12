@@ -3,6 +3,10 @@
   --color-light-gray: rgb(218, 218, 218);
   --color-dark-gray: rgb(56, 56, 56);
   --max-width: 1280px;
+  --color-black: #000;
+}
+html{
+  scroll-behavior: smooth;
 }
 
 * {
@@ -12,7 +16,7 @@
 }
 
 body {
-  background: #000;
+  background: var(--color-black);
   font-family: "inter", sans-serif;
 }
 

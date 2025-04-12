@@ -3,10 +3,10 @@ import ButtonRed from "../ButtonRed/ButtonRed";
 
 const Precos = () => {
   return (
-    <section className={styles.precos}>
+    <section className={styles.precos} id="valores">
       <div className={styles.precoWrapper}>
         <h2 className={styles.precosH2}>
-          Veja como você pode <span>investir em VOCÊ</span> com o valor que cabe no seu bolso
+          Invista em seu <span> potencial</span> com um <span>valor acessível</span>
         </h2>
         <div className={styles.contentPrecos}>
           <div className={styles.precoBasico}>

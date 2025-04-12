@@ -28,16 +28,22 @@ const Header = () => {
         <nav className={`${styles.navMenu} ${menuActive ? styles.active : ""}`}>
           <ul className={styles.ulMenu}>
             <li className={styles.navLi}>
-              <a href="">Apresentação</a>
+              <a href="#hero">Apresentação</a>
             </li>
             <li className={styles.navLi}>
-              <a href="">Cursos</a>
+              <a href="#cursos">Cursos</a>
             </li>
             <li className={styles.navLi}>
-              <a href="">Galeria</a>
+              <a href="#gallery">Galeria</a>
+            </li>
+            <li className={styles.navLi}>
+              <a href="#valores">Valores</a>
+            </li>
+            <li className={styles.navLi}>
+              <a href="#footer">Redes Sociais</a>
             </li>
             <li>
-              <ButtonRed>Cadastre-se</ButtonRed>
+              <ButtonRed link="/cadastro">Cadastre-se</ButtonRed>
             </li>
           </ul>
         </nav>

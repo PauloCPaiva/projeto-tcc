@@ -34,3 +34,8 @@
   color: #000000;
   border: 1px solid #cacaca;
 }
+
+.divButton{
+  display: flex;
+  gap: 40px;
+}

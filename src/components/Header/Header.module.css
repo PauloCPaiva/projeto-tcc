@@ -1,3 +1,7 @@
+.Header{
+  background-color: var(--color-black);
+}
+
 .wrapperHeader {
   margin: 0 auto;
   max-width: var(--max-width);
@@ -31,7 +35,8 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 0%;
+  bottom: -10px;
+  width: 40%;
   height: 2px; /* Espessura do sublinhado */
   background-color: var(--color-Pink); /* Cor do sublinhado */
   transition: width 0.5s ease; /* Transição para o aumento da largura */
@@ -51,6 +56,7 @@
   }
 
   .wrapperHeader {
+    padding: 1.5625rem 1rem;
     display: flex;
     justify-content: space-between;
   }
