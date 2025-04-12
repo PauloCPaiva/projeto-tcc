@@ -52,3 +52,17 @@
   margin-top: 12px;
   gap: 16px;
 }
+
+@media (max-width: 600px) {
+  .containerFooter {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .emailDiv{
+    margin-top: 20px;
+  }
+  .footerCopy {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
