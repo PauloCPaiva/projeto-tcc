@@ -44,7 +44,7 @@ const Footer = () => {
               <img src={X} alt="X" />
             </a>
           </div>
-          <p>© 2025 MATTEL. Todos os direitos reservados.</p>
+          <p>© 2025 ProCode. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
