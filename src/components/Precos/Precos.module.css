@@ -1,5 +1,5 @@
-.precos{
-  padding: 3rem 1rem;
+.precos {
+  padding: 4rem 0 0;
 }
 
 .precoWrapper {
@@ -40,7 +40,7 @@
   max-width: 24ch;
   font-size: 38px;
 }
-.precosH2 span{
+.precosH2 span {
   color: var(--color-Pink);
 }
 
@@ -118,7 +118,6 @@
 
 @media (max-width: 600px) {
   .precoWrapper::before {
-  
     width: 30%;
     transform: translateX(100%) translateY(-40%);
     height: 1000px;
@@ -126,10 +125,10 @@
   .contentPrecos {
     flex-direction: column;
   }
-  .precosH2{
+  .precosH2 {
     font-size: 38px;
   }
-  
+
   .precoBasico h2,
   .precoEssencial h2,
   .precoAvancado h2 {

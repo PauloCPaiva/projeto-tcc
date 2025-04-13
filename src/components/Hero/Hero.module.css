@@ -1,5 +1,5 @@
 .hero{
-  margin: 3rem 0;
+  margin: 4rem 0 0;
 }
 .heroWrapper {
   position: relative;
@@ -57,6 +57,9 @@
 }
 
 @media (max-width: 600px){
+  .hero{
+    margin: 6.5rem 0 0;
+  }
   .heroWrapper{
     display: flex;
     flex-direction: column;

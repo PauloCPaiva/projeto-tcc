@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px 0;
+  padding: 5rem 0 0;
   gap: 20px;
 }
 
@@ -73,7 +73,7 @@
 
 @media (max-width: 600px) {
   .wrapperCourses {
-    padding: 20px;
+    padding: 5rem 0 0;
     gap: 25px;
   }
   .wrapperCoursesH2{
