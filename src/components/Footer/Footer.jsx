@@ -13,10 +13,8 @@ const Footer = () => {
           <div>
             <img src={LogoFooter} alt="logo" />
             <p>
-              Esta edição especial do UNO®, o jogo de cartas adorado por todos,
-              tem um visual totalmente exclusivo. Concebida com uma estética
-              minimalista, essa versão é um grande presente para colecionadores
-              de UNO®.
+            Oferecemos cursos de qualidade, desenvolvidos por especialistas, para ajudar você a crescer na carreira, empreender ou aprender algo novo.
+            Nosso compromisso é com a educação acessível, atualizada e prática.
             </p>
           </div>
           <div>
