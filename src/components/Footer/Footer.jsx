@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
           <div>
             <p>
-              Inscreva-se para saber de novos cursos na procode. Se inscreva-se
+              Inscreva-se para saber de novos cursos na ProCode. Se inscreva-se
               abaixo agora!
             </p>
             <div className={styles.emailDiv}>
