@@ -76,6 +76,9 @@
     padding: 20px;
     gap: 25px;
   }
+  .wrapperCoursesH2{
+    font-size: 40px;
+  }
   .conteinerCard {
     gap: 15px;
   }

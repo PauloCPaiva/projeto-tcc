@@ -1,5 +1,5 @@
 .hero{
-  margin-bottom: 2rem;
+  margin: 3rem 0;
 }
 .heroWrapper {
   position: relative;
@@ -75,6 +75,9 @@
     align-items: center;
   }
 
+  .heroContent h1 {
+    font-size: 40px;
+  }
   .heroContent p {
     text-align: center;
     max-width: 38ch;

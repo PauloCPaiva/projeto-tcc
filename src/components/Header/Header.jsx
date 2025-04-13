@@ -28,19 +28,19 @@ const Header = () => {
         <nav className={`${styles.navMenu} ${menuActive ? styles.active : ""}`}>
           <ul className={styles.ulMenu}>
             <li className={styles.navLi}>
-              <a href="#hero">Apresentação</a>
+              <a href="#hero" onClick={() => setMenuActive(false)}>Apresentação</a>
             </li>
             <li className={styles.navLi}>
-              <a href="#cursos">Cursos</a>
+              <a href="#cursos" onClick={() => setMenuActive(false)}>Cursos</a>
             </li>
             <li className={styles.navLi}>
-              <a href="#gallery">Galeria</a>
+              <a href="#gallery" onClick={() => setMenuActive(false)}>Galeria</a>
             </li>
             <li className={styles.navLi}>
-              <a href="#valores">Valores</a>
+              <a href="#valores" onClick={() => setMenuActive(false)}>Valores</a>
             </li>
             <li className={styles.navLi}>
-              <a href="#footer">Redes Sociais</a>
+              <a href="#footer" onClick={() => setMenuActive(false)}>Redes Sociais</a>
             </li>
             <li>
               <ButtonRed link="/cadastro">Cadastre-se</ButtonRed>

@@ -6,9 +6,12 @@ const Gallery = () => {
     <section id="gallery">
       <div className={styles.wrapperGallery}>
         <h2>
-          Seu aprendizado prepara <span>você</span> para <span>criar</span> <span>soluções</span> reais e <span>inovadoras</span>
+          Seu aprendizado prepara <span>você</span> para <span>criar</span>
+          <span>soluções</span> reais e <span>inovadoras</span>
         </h2>
-        <p>Cada graduação conta com <span>Projetos Especiais</span></p>
+        <p>
+          Cada graduação conta com <span>Projetos Especiais</span>
+        </p>
         <div className={styles.imgGallery}>
           <div className={styles.divImg}>
             {listSites.map((site, index) => (

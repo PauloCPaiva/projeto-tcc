@@ -60,6 +60,9 @@
 }
 
 @media (max-width: 600px) {
+  .Footer{
+    padding: 0 16px;
+  }
   .containerFooter {
     flex-direction: column;
     gap: 16px;

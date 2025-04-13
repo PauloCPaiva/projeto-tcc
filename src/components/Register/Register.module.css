@@ -1,3 +1,6 @@
+.cadastro{  
+  padding: 6rem 1rem 1rem;
+}
 .cadastroWrapper {
   max-width: var(--max-width);
   margin: 0 auto;
@@ -9,6 +12,12 @@
   align-items: end;
 }
 
+.cadastroWrapper h2 {
+  font-size: 20px;
+  text-align: center;
+  width: 30ch;
+  padding-bottom: 20px;
+}
 .cadastroEmail {
   padding-bottom: 10px;
 }

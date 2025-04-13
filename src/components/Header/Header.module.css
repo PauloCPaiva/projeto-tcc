@@ -1,5 +1,10 @@
 .Header{
-  background-color: var(--color-black);
+  background-color: var(--color-black);  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Garante que fique acima do conteúdo */
 }
 
 .wrapperHeader {

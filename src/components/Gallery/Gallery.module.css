@@ -9,17 +9,18 @@
   gap: 20px;
 }
 
-.wrapperGallery h2,p {
+.wrapperGallery h2,
+p {
   text-align: center;
   color: var(--color-light-gray);
 }
 
-.wrapperGallery h2{
+.wrapperGallery h2 {
   font-size: 48px;
   max-width: 30ch;
 }
 
-.wrapperGallery span{
+.wrapperGallery span {
   color: var(--color-Pink);
 }
 
@@ -56,12 +57,16 @@
   border-radius: 10px;
 }
 
-@media (max-widht: 600px) {
+@media (max-width: 600px) {
+  .wrapperGallery h2{
+    font-size: 40px;
+  }
+
   .divImg {
     gap: 10px;
   }
-  
-.divImg a {
-  width: 100px;
-}
+
+  .divImg a {
+    width: 100px;
+  }
 }
